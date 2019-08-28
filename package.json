@@ -7,7 +7,7 @@
   "license": "",
   "scripts": {
     "dev": "ts-node-dev src/index.ts",
-    "start": "node build/index.js",
+    "start": "NODE_ENV=production node build/index.js",
     "build": "tsc",
     "test": "exit 0",
     "lint": "eslint --ext .js,.ts src/**/*"
