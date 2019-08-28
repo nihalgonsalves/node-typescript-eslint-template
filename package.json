@@ -2,10 +2,18 @@
   "name": "node-typescript-eslint-template",
   "description": "",
   "version": "0.0.1",
-  "main": "",
+  "main": "build/index.js",
   "author": "",
   "license": "",
-  "scripts": {},
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node build/index.js",
+    "build": "tsc",
+    "test": "exit 0"
+  },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.42",
+    "typescript": "^3.5.3"
+  }
 }
