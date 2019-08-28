@@ -3,8 +3,11 @@
 ![build status](https://github.com/nihalgonsalves/node-typescript-eslint-template/workflows/build/badge.svg)
 ![last commit](https://img.shields.io/github/last-commit/nihalgonsalves/node-typescript-eslint-template)
 ![license UNLICENSE](https://img.shields.io/github/license/nihalgonsalves/node-typescript-eslint-template?color=brightgreen)
+![dependency status](https://david-dm.org/nihalgonsalves/node-typescript-eslint-template.svg)
 
-TypeScript template repository with typescript-eslint (airbnb config) and ts-node-dev
+TypeScript template repository with typescript-eslint (airbnb config) and ts-node-dev.
+
+Dependabot keeps the dependencies up to date.
 
 - **Build tool**: yarn (can be replaced with npm: `rm yarn.lock && npm install`)
 - **Target Node version**: 12.x (es2019)
