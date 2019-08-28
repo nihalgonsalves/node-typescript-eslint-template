@@ -1,5 +1,9 @@
 ## node-typescript-eslint-template
 
+![build status](https://github.com/nihalgonsalves/node-typescript-eslint-template/workflows/build/badge.svg)
+![last commit](https://img.shields.io/github/last-commit/nihalgonsalves/node-typescript-eslint-template)
+![license UNLICENSE](https://img.shields.io/github/license/nihalgonsalves/node-typescript-eslint-template?color=brightgreen)
+
 TypeScript template repository with typescript-eslint (airbnb config) and ts-node-dev
 
 - **Build tool**: yarn (can be replaced with npm: `rm yarn.lock && npm install`)
