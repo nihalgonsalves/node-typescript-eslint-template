@@ -3,7 +3,7 @@
 ![build status](https://github.com/nihalgonsalves/node-typescript-eslint-template/workflows/build/badge.svg)
 ![last commit](https://img.shields.io/github/last-commit/nihalgonsalves/node-typescript-eslint-template)
 ![license UNLICENSE](https://img.shields.io/github/license/nihalgonsalves/node-typescript-eslint-template?color=brightgreen)
-![dependency status](https://david-dm.org/nihalgonsalves/node-typescript-eslint-template.svg)
+![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=nihalgonsalves/node-typescript-eslint-template)
 
 TypeScript template repository with typescript-eslint (airbnb config) and ts-node-dev.
 
