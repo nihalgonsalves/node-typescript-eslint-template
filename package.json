@@ -18,7 +18,7 @@
     "@typescript-eslint/parser": "^2.10.0",
     "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-import": "^2.19.1",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.7.3"
   }
