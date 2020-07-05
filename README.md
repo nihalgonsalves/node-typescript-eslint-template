@@ -22,3 +22,26 @@ Scripts:
 - `yarn build` build to JS
 - `yarn start` run built JS
 - `yarn test` currently does nothing
+
+### use with react
+
+1. Modify .eslintrc
+
+    ```diff
+    @@ -2,7 +2,8 @@
+       "parser": "@typescript-eslint/parser",
+       "plugins": ["@typescript-eslint"],
+       "extends": [
+    -    "airbnb-typescript/base", 
+    +    "airbnb-typescript",
+    +    "airbnb/hooks",
+         "plugin:@typescript-eslint/recommended",
+         "plugin:@typescript-eslint/recommended-requiring-type-checking"
+       ],
+    ```
+
+2. Add missing dependencies
+
+    ```sh
+    yarn add --dev eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
+    ```
