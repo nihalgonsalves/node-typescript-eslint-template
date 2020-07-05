@@ -10,7 +10,7 @@
     "start": "NODE_ENV=production node build/index.js",
     "build": "tsc",
     "test": "exit 0",
-    "lint": "eslint --ext .js,.ts src/**/*"
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src/**/*"
   },
   "dependencies": {},
   "devDependencies": {
