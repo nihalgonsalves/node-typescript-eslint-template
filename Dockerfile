@@ -12,7 +12,7 @@ ADD src/ ./src/
 
 RUN yarn build
 
-FROM node:12-slim
+FROM node:14-slim
 
 WORKDIR /usr/src/app
 
