@@ -30,4 +30,4 @@ ENV NODE_ENV=production
 
 EXPOSE 4000
 
-CMD ["node", "build/index.js"]
+CMD ["yarn", "start"]
