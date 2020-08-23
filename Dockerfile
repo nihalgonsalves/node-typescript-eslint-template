@@ -5,6 +5,9 @@ WORKDIR /usr/src/app
 ADD package.json .
 ADD yarn.lock .
 
+# All the steps until here can be re-used in the second stage,
+# so the devDependencies are installed separately
+RUN yarn install --frozen-lockfile --production
 RUN yarn install --frozen-lockfile
 
 ADD tsconfig.json .
@@ -27,4 +30,4 @@ ENV NODE_ENV=production
 
 EXPOSE 4000
 
-CMD ["yarn", "start"]
+CMD ["node", "build/index.js"]
