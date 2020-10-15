@@ -20,7 +20,7 @@
     "eslint": "^7.11.0",
     "eslint-config-airbnb-typescript": "^9.0.0",
     "eslint-plugin-import": "^2.22.1",
-    "ts-node-dev": "^1.0.0-pre.63",
+    "ts-node-dev": "^1.0.0-pre.65",
     "typescript": "^4.0.3"
   }
 }
