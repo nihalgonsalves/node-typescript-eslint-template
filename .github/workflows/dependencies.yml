@@ -36,9 +36,9 @@ jobs:
       - name: Create Pull Request
         with:
           committer: GitHub Actions <actions@github.com>
-          commit-message: "chore(deps): update all 🚀"
-          title: "chore(deps): update all 🚀"
-          body: "Please look at the diff for changes"
+          commit-message: 'chore(deps): update all 🚀'
+          title: 'chore(deps): update all 🚀'
+          body: 'Please look at the diff for changes'
           author: GitHub Actions <actions@github.com>
           branch: chore/update-dependencies
           branch-suffix: timestamp
