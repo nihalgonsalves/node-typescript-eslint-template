@@ -53,10 +53,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@nihalgonsalves/esconfig@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@nihalgonsalves/esconfig/-/esconfig-0.0.4.tgz#421afef8808d378402aa0969a8d0caf4a3b5ad26"
-  integrity sha512-Lz5uRS8rbAAULYc9EHR0INkcoYl7wtJOaARehaxdLbsu3UvZwrkwQru160ArkWT/uTB2DiidqgNsUtTsUJybAg==
+"@nihalgonsalves/esconfig@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@nihalgonsalves/esconfig/-/esconfig-0.0.8.tgz#758a9b9150e273f3769540624c3214600986953c"
+  integrity sha512-24IkpdIyhXYaKcohOgCkyhILxuz7sFu3vOO8NvxMXC42LAq20OdAbkN8I/zRrn3RTwNG49MazDxlkkq2xb2peQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.22.0"
     "@typescript-eslint/parser" "^4.22.0"

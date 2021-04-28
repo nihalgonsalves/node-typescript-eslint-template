@@ -36,23 +36,17 @@ For the dependency update workflow to work, you must setup a Deploy Key.
 
 ## use with react
 
-1. Modify .eslintrc
-
-   ```diff
-   @@ -2,7 +2,8 @@
-      "parser": "@typescript-eslint/parser",
-      "plugins": ["@typescript-eslint"],
-      "extends": [
-   -    "airbnb-typescript/base",
-   +    "airbnb-typescript",
-   +    "airbnb/hooks",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking"
-      ],
-   ```
-
-2. Add missing dependencies
-
-   ```sh
-   yarn add --dev eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
-   ```
+```diff
+diff --git a/.eslintrc b/.eslintrc
+index e755856..bbaeee5 100644
+--- a/.eslintrc
++++ b/.eslintrc
+@@ -1,3 +1,6 @@
+{
+-  "extends": ["./node_modules/@nihalgonsalves/esconfig/.eslintrc"]
++  "extends": [
++    "./node_modules/@nihalgonsalves/esconfig/.eslintrc",
++    "./node_modules/@nihalgonsalves/esconfig/.eslintrc.react"
++  ]
+}
+```
