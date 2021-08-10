@@ -17,7 +17,7 @@
   "devDependencies": {
     "@nihalgonsalves/esconfig": "^0.0.9",
     "@types/node": "14",
-    "eslint": "^7.31.0",
+    "eslint": "^7.32.0",
     "npm-check-updates": "^11.8.3",
     "prettier": "^2.3.2",
     "ts-node-dev": "^1.1.8",
