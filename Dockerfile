@@ -1,4 +1,4 @@
-FROM node:14-slim as builder
+FROM node:16-slim as builder
 
 WORKDIR /usr/src/app
 
@@ -15,7 +15,7 @@ ADD src/ ./src/
 
 RUN yarn build
 
-FROM node:14-slim
+FROM node:16-slim
 
 WORKDIR /usr/src/app
 
