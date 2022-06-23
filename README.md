@@ -30,8 +30,8 @@ For the dependency update workflow to work, you must setup a Deploy Key.
 
 - Create an SSH key for the dependency update workflow:
   - To generate a key pair, use `ssh-keygen -t ed25519 -C "actions@github.com"`
-  - Copy the public key (starts with `ssh-ed25519 AAAA...`) and add it as a new deploy key (`https://github.com/moia-dev/<your-repo>/settings/keys/new`). Make sure to tick "Allow write access", as the workflow needs to push a new branch with the updates.
-  - Copy the private key (starts with `-----BEGIN OPENSSH PRIVATE KEY-----`) and save it as a new secret (`https://github.com/moia-dev/<your-repo>/settings/secrets/actions/new`) called `ACTIONS_DEPLOY_KEY`
+  - Copy the public key (starts with `ssh-ed25519 AAAA...`) and add it as a new deploy key (`https://github.com/<your-org>/<your-repo>/settings/keys/new`). Make sure to tick "Allow write access", as the workflow needs to push a new branch with the updates.
+  - Copy the private key (starts with `-----BEGIN OPENSSH PRIVATE KEY-----`) and save it as a new secret (`https://github.com/<your-org>/<your-repo>/settings/secrets/actions/new`) called `ACTIONS_DEPLOY_KEY`
   - 🚨 Make sure to delete the keys from your local machine once done
 
 ## use with react
