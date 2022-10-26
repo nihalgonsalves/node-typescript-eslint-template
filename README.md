@@ -9,7 +9,7 @@ TypeScript template repository with typescript-eslint (airbnb config) and ts-nod
 Dependabot keeps the dependencies up to date.
 
 - **Build tool**: yarn (can be replaced with npm: `rm yarn.lock && npm install`)
-- **Target Node version**: 16.x (es2022)
+- **Target Node version**: 18.x (es2023)
 - **Structure**: `src/` for TypeScript source files and `build/` for output
 - Also includes a default `.editorconfig` with 2-space indents
 
