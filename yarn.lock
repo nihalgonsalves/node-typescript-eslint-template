@@ -107,10 +107,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@nihalgonsalves/esconfig@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@nihalgonsalves/esconfig/-/esconfig-0.3.0.tgz#36a05a583d42d576d6a461b75037ec401a1e3e4d"
-  integrity sha512-rSuMaUYNJbgqE9xp1/hctLO00/5yStxFM4sGMMc3BO/L3D82dxYZNrh6UU+v46KromEjl2sYb8c1gIJctDxX4Q==
+"@nihalgonsalves/esconfig@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@nihalgonsalves/esconfig/-/esconfig-0.3.2.tgz#48617522dee1da31dd0dc1ce28d2f707f6bc72a3"
+  integrity sha512-gmEo9TDQZhtWcIc4vJ+DVDZvwzKZnGzFZnGeygxsj2REussR6U6JdxGLHk7OjwuYzhXpWS7u30YEgsfXCj+kLQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.60.1"
     "@typescript-eslint/parser" "^5.60.1"
