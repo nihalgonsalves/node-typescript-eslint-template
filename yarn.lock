@@ -90,10 +90,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@nihalgonsalves/esconfig@^0.6.4":
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/@nihalgonsalves/esconfig/-/esconfig-0.6.4.tgz#dc9ba58b1150e2e3e42ce96e73273629ce0e5f1e"
-  integrity sha512-pDV4Iq8uiWB0p7YOIA1NcmfFYuX6IlUhHarI3BVUtBtfrDXDGnT1gILEpgYfWWAPRwcZN7jBXImYHPs+YXDqNw==
+"@nihalgonsalves/esconfig@^0.6.5":
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/@nihalgonsalves/esconfig/-/esconfig-0.6.5.tgz#f5a90732d49018f0e35f332226794394e986eb2a"
+  integrity sha512-rAXkDr8ymv9kPadz2rRKF+g/j835UqHaIRE6JsaaMaT+yRoiKqJRhZpMObxnPHuzEpI17t2b8O/NpQ6gJ3DCeA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^6.2.1"
     "@typescript-eslint/parser" "^6.2.1"
@@ -156,9 +156,9 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/node@18":
-  version "18.18.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.18.4.tgz#519fef47a13cf869be290c20fc6ae9b7fe887aa7"
-  integrity sha512-t3rNFBgJRugIhackit2mVcLfF6IRc0JE4oeizPQL8Zrm8n2WY/0wOdpOPhdtG0V9Q2TlW/axbF1MJ6z+Yj/kKQ==
+  version "18.18.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.18.5.tgz#afc0fd975df946d6e1add5bbf98264225b212244"
+  integrity sha512-4slmbtwV59ZxitY4ixUZdy1uRLf9eSIvBWPQxNjhHYWEtn0FryfKpyS2cvADYXTayWdKEIsJengncrVvkI4I6A==
 
 "@types/semver@^7.5.0":
   version "7.5.0"
