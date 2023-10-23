@@ -15,8 +15,8 @@
     "format:check": "prettier . --check"
   },
   "devDependencies": {
-    "@nihalgonsalves/esconfig": "^0.6.6",
-    "@types/node": "18",
+    "@nihalgonsalves/esconfig": "^0.6.7",
+    "@types/node": "20",
     "eslint": "^8.52.0",
     "prettier": "^3.0.3",
     "ts-node-dev": "^2.0.0",
