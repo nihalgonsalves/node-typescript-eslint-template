@@ -3,7 +3,11 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "extensions": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint"],
-  "postCreateCommand": "yarn install",
+  "customizations": {
+    "vscode": {
+      "extensions": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint"]
+    }
+  },
+  "onCreateCommand": "yarn install",
   "remoteUser": "node"
 }

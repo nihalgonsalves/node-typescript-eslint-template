@@ -5,10 +5,8 @@ WORKDIR /usr/src/app
 ADD package.json .
 ADD yarn.lock .
 
-# All the steps until here can be re-used in the second stage,
-# so the devDependencies are installed separately
-RUN yarn install --frozen-lockfile --production
-RUN yarn install --frozen-lockfile
+RUN corepack enable
+RUN yarn install --immutable
 
 ADD tsconfig.json .
 ADD src/ ./src/
@@ -22,7 +20,8 @@ WORKDIR /usr/src/app
 ADD package.json .
 ADD yarn.lock .
 
-RUN yarn install --frozen-lockfile --production
+RUN corepack enable
+RUN yarn install --immutable
 
 COPY --from=builder /usr/src/app/build/ ./build/
 
