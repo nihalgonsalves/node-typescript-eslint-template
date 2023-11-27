@@ -2,14 +2,15 @@ FROM node:20-slim as builder
 
 WORKDIR /usr/src/app
 
-ADD package.json .
-ADD yarn.lock .
+COPY ./package.json ./
+COPY ./yarn.lock ./
+COPY ./.yarnrc.yml ./
 
 RUN corepack enable
 RUN yarn install --immutable
 
-ADD tsconfig.json .
-ADD src/ ./src/
+COPY tsconfig.json .
+COPY src/ ./src/
 
 RUN yarn build
 
@@ -17,8 +18,9 @@ FROM node:20-slim
 
 WORKDIR /usr/src/app
 
-ADD package.json .
-ADD yarn.lock .
+COPY ./package.json ./
+COPY ./yarn.lock ./
+COPY ./.yarnrc.yml ./
 
 RUN corepack enable
 RUN yarn install --immutable
