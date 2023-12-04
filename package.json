@@ -18,8 +18,8 @@
   "devDependencies": {
     "@nihalgonsalves/esconfig": "^0.6.11",
     "@types/node": "20",
-    "eslint": "^8.54.0",
-    "lefthook": "^1.5.4",
+    "eslint": "^8.55.0",
+    "lefthook": "^1.5.5",
     "prettier": "^3.1.0",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.3.2"
