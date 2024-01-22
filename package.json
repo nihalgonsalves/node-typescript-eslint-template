@@ -16,11 +16,11 @@
     "format:check": "prettier . --check"
   },
   "devDependencies": {
-    "@nihalgonsalves/esconfig": "^0.7.1",
+    "@nihalgonsalves/esconfig": "^0.8.1",
     "@types/node": "20",
     "eslint": "^8.56.0",
-    "lefthook": "^1.5.5",
-    "prettier": "^3.1.1",
+    "lefthook": "^1.6.0",
+    "prettier": "^3.2.4",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.3.3"
   }
