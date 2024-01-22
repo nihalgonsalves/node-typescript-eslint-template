@@ -5,11 +5,11 @@ pre-commit:
     - rebase
   commands:
     eslint_prettier:
-      glob: '*.{js,ts,jsx,tsx,cjs,cts,mjs,mts}'
+      glob: "*.{js,ts,jsx,tsx,cjs,cts,mjs,mts}"
       run: node_modules/.bin/eslint --fix {staged_files} && node_modules/.bin/prettier --write {staged_files}
       stage_fixed: true
 
     prettier:
-      glob: '*.{html,json,yaml,yml}'
+      glob: "*.{html,json,yaml,yml}"
       run: node_modules/.bin/prettier --write {staged_files}
       stage_fixed: true
