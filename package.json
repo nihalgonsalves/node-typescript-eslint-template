@@ -5,7 +5,7 @@
   "type": "module",
   "author": "",
   "license": "",
-  "packageManager": "yarn@4.0.2+sha256.825003a0f561ad09a3b1ac4a3b3ea6207af2796d54f62a9420520915721f5186",
+  "packageManager": "yarn@4.1.1+sha256.f3cc0eda8e5560e529c7147565b30faa43b4e472d90e8634d7134a37c7f59781",
   "scripts": {
     "dev": "ts-node-dev src/index.ts",
     "start": "NODE_ENV=production node build/index.js",
@@ -16,12 +16,12 @@
     "format:check": "prettier . --check"
   },
   "devDependencies": {
-    "@nihalgonsalves/esconfig": "^0.9.5",
+    "@nihalgonsalves/esconfig": "^0.9.6",
     "@types/node": "20",
     "eslint": "^8.57.0",
-    "lefthook": "^1.6.7",
+    "lefthook": "^1.6.10",
     "prettier": "^3.2.5",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.5"
   }
 }
