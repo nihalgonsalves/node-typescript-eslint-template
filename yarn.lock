@@ -135,12 +135,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nihalgonsalves/esconfig@npm:^0.9.6":
-  version: 0.9.6
-  resolution: "@nihalgonsalves/esconfig@npm:0.9.6"
+"@nihalgonsalves/esconfig@npm:^0.9.7":
+  version: 0.9.7
+  resolution: "@nihalgonsalves/esconfig@npm:0.9.7"
   dependencies:
-    "@typescript-eslint/eslint-plugin": "npm:^7.4.0"
-    "@typescript-eslint/parser": "npm:^7.4.0"
+    "@typescript-eslint/eslint-plugin": "npm:^7.7.0"
+    "@typescript-eslint/parser": "npm:^7.7.0"
     eslint-config-airbnb-typescript: "npm:^18.0.0"
     eslint-config-prettier: "npm:^9.1.0"
     eslint-plugin-import: "npm:^2.29.1"
@@ -151,7 +151,7 @@ __metadata:
     eslint: ^8.57.0
     prettier: ^3.2.5
     typescript: ^5.4.3
-  checksum: 10c0/6a11f83d792d123092bfc8288b272abd6a2b6d0d6ddfa59970b818b2be67f8537da36a28af95810a142e24bfa51daabf9f1a57379ce713962385be0c6fec251a
+  checksum: 10c0/e201799e28ba98b86ad63df61ae07c3223013802538341dd5bb43f309899d64ad38b7e85720d696909230a9ed58508ca463db61ce911d51348a78666a302e7d1
   languageName: node
   linkType: hard
 
@@ -283,7 +283,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^7.4.0":
+"@typescript-eslint/eslint-plugin@npm:^7.7.0":
   version: 7.7.0
   resolution: "@typescript-eslint/eslint-plugin@npm:7.7.0"
   dependencies:
@@ -308,7 +308,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^7.4.0":
+"@typescript-eslint/parser@npm:^7.7.0":
   version: 7.7.0
   resolution: "@typescript-eslint/parser@npm:7.7.0"
   dependencies:
@@ -2611,7 +2611,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "node-typescript-eslint-template@workspace:."
   dependencies:
-    "@nihalgonsalves/esconfig": "npm:^0.9.6"
+    "@nihalgonsalves/esconfig": "npm:^0.9.7"
     "@types/node": "npm:20"
     eslint: "npm:^8.57.0"
     lefthook: "npm:^1.6.10"
