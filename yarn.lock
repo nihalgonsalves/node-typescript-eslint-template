@@ -135,9 +135,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nihalgonsalves/esconfig@npm:^0.9.8":
-  version: 0.9.8
-  resolution: "@nihalgonsalves/esconfig@npm:0.9.8"
+"@nihalgonsalves/esconfig@npm:^0.9.9":
+  version: 0.9.9
+  resolution: "@nihalgonsalves/esconfig@npm:0.9.9"
   dependencies:
     "@typescript-eslint/eslint-plugin": "npm:^7.7.1"
     "@typescript-eslint/parser": "npm:^7.7.1"
@@ -146,12 +146,12 @@ __metadata:
     eslint-plugin-import: "npm:^2.29.1"
     eslint-plugin-jsx-a11y: "npm:^6.8.0"
     eslint-plugin-react: "npm:^7.34.1"
-    eslint-plugin-react-hooks: "npm:^4.6.0"
+    eslint-plugin-react-hooks: "npm:^4.6.2"
   peerDependencies:
     eslint: ^8.57.0
     prettier: ^3.2.5
     typescript: ^5.4.3
-  checksum: 10c0/2e05f33d58131d5a9216eaa60219d2e0d27931e2df8f103006e416daa284f1d996d5617ca2f280bbd83c8b69137fb04a0c523bc31801a17831ef2a2d43c6e87d
+  checksum: 10c0/560acaa5ef53df16d67fd048dd6d835698b2b74d1c0145d6cf834a399f66457e9400cba21bae5cb96422ae4186ead1cdd8af835b9b2d0d3e72d523a5165da462
   languageName: node
   linkType: hard
 
@@ -1271,12 +1271,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:^4.6.0":
-  version: 4.6.0
-  resolution: "eslint-plugin-react-hooks@npm:4.6.0"
+"eslint-plugin-react-hooks@npm:^4.6.2":
+  version: 4.6.2
+  resolution: "eslint-plugin-react-hooks@npm:4.6.2"
   peerDependencies:
     eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
-  checksum: 10c0/58c7e10ea5792c33346fcf5cb4024e14837035ce412ff99c2dcb7c4f903dc9b17939078f80bfef826301ce326582c396c00e8e0ac9d10ac2cde2b42d33763c65
+  checksum: 10c0/4844e58c929bc05157fb70ba1e462e34f1f4abcbc8dd5bbe5b04513d33e2699effb8bca668297976ceea8e7ebee4e8fc29b9af9d131bcef52886feaa2308b2cc
   languageName: node
   linkType: hard
 
@@ -2611,7 +2611,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "node-typescript-eslint-template@workspace:."
   dependencies:
-    "@nihalgonsalves/esconfig": "npm:^0.9.8"
+    "@nihalgonsalves/esconfig": "npm:^0.9.9"
     "@types/node": "npm:20"
     eslint: "npm:^8.57.0"
     lefthook: "npm:^1.6.10"
