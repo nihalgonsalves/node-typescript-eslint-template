@@ -19,7 +19,7 @@
     "@nihalgonsalves/esconfig": "^0.9.10",
     "@types/node": "20",
     "eslint": "^8.57.0",
-    "lefthook": "^1.6.11",
+    "lefthook": "^1.6.12",
     "prettier": "^3.2.5",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.4.5"
