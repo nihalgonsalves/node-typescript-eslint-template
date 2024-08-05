@@ -16,7 +16,7 @@
     "format:check": "prettier . --check"
   },
   "devDependencies": {
-    "@nihalgonsalves/esconfig": "^0.9.21",
+    "@nihalgonsalves/esconfig": "^0.9.22",
     "@types/node": "20",
     "eslint": "^8.57.0",
     "lefthook": "^1.7.11",
