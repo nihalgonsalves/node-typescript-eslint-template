@@ -1,5 +1,5 @@
 {
-  "extends": "@nihalgonsalves/esconfig",
+  "extends": "@nihalgonsalves/esconfig/tsconfig.shared.json",
   "compilerOptions": {
     "outDir": "./build",
     "rootDir": "./src"
