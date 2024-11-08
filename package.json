@@ -5,7 +5,7 @@
   "type": "module",
   "author": "",
   "license": "",
-  "packageManager": "yarn@4.5.0+sha512.837566d24eec14ec0f5f1411adb544e892b3454255e61fdef8fd05f3429480102806bac7446bc9daff3896b01ae4b62d00096c7e989f1596f2af10b927532f39",
+  "packageManager": "yarn@4.5.1+sha512.341db9396b6e289fecc30cd7ab3af65060e05ebff4b3b47547b278b9e67b08f485ecd8c79006b405446262142c7a38154445ef7f17c1d5d1de7d90bf9ce7054d",
   "scripts": {
     "dev": "tsx src/index.ts",
     "start": "NODE_ENV=production node build/index.js",
@@ -16,13 +16,13 @@
     "format:check": "prettier . --check"
   },
   "devDependencies": {
-    "@nihalgonsalves/esconfig": "^0.10.13",
-    "@types/node": "20",
-    "eslint": "^9.13.0",
+    "@nihalgonsalves/esconfig": "^0.10.14",
+    "@types/node": "^22",
+    "eslint": "^9.14.0",
     "lefthook": "^1.8.2",
     "prettier": "^3.3.3",
     "tsx": "^4.19.2",
     "typescript": "^5.6.3",
-    "typescript-eslint": "^8.12.2"
+    "typescript-eslint": "^8.13.0"
   }
 }
